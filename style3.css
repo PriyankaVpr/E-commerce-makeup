@@ -1,0 +1,90 @@
+/* Basic Reset */
+body, h1, h2, p, label, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://wallpaperaccess.com/full/1190653.jpg') no-repeat center center fixed; /* Background image */
+    background-size: cover;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: rgba(255, 111, 97, 0.8); /* Semi-transparent background */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    position: relative; /* Ensure it's above the background */
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.login-container label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.login-container input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6f61; /* Button color */
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-container button:hover {
+    background-color: #e65c50; /* Darker shade on hover */
+}
+
+.login-container p {
+    margin-top: 15px;
+}
+
+.login-container a {
+    color: #ff6f61;
+    text-decoration: none;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
